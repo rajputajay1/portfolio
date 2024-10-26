@@ -32,7 +32,7 @@ const About = () => {
 
                 <section className="service">
 
-                    <h3 className="h3 service-title">What i'm doing</h3>
+                    <h3 className="h3 service-title">What I&rsquo;m doing</h3>
 
                     <ul className="service-list">
 
