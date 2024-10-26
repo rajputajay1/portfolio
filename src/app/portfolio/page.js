@@ -4,7 +4,7 @@ import projectsData from '@/data/project';
 import React, { useEffect } from 'react'
 import { FaGraduationCap } from "react-icons/fa";
 import { FaChevronDown, FaRegEye } from "react-icons/fa";
-const page = () => {
+const Page = () => {
     const [toggle, setToggle] = React.useState(false);
     const [projects, setProjects] = React.useState([]);
     const [filter, setFilter] = React.useState('all');
@@ -103,4 +103,4 @@ const page = () => {
     )
 }
 
-export default page
+export default Page

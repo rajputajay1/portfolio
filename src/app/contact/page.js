@@ -1,7 +1,7 @@
 import Navbar from '@/components/navbar'
 import React from 'react'
 
-const page = () => {
+const Page = () => {
     return (
         <>
             <Navbar page="Contact" />
@@ -45,4 +45,4 @@ const page = () => {
     )
 }
 
-export default page
+export default Page
