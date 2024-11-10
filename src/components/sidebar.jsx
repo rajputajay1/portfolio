@@ -20,9 +20,9 @@ const Sidebar = () => {
           />
         </figure>
 
-        <div className="info-content">
-          <h1 className="name" title="Uttam Singhal">
-            Uttam SInghal
+        <div className="info-content tracking-wide">
+          <h1 className="name tracking-wide" title="Uttam Singhal">
+            Uttam Singhal
           </h1>
 
           <p className="title">UI/UX Designer & Web Developer</p>
