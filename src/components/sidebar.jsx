@@ -22,10 +22,10 @@ const Sidebar = () => {
 
         <div className="info-content tracking-wide">
           <h1 className="name tracking-wide" title="Uttam Singhal">
-            Uttam Singhal
+            Ajay Rajput
           </h1>
 
-          <p className="title">UI/UX Designer & Web Developer</p>
+          <p className="title">Full Stack Developer</p>
         </div>
 
         <button
@@ -51,7 +51,7 @@ const Sidebar = () => {
               <p className="contact-title">Email</p>
 
               <a href="mailto:uttamg61001@gmail.com" className="contact-link">
-                uttamg61001@gmail.com
+                rajputboy9306@1@gmail.com
               </a>
             </div>
           </li>
@@ -65,7 +65,7 @@ const Sidebar = () => {
               <p className="contact-title">Phone</p>
 
               <a href="tel:+917062467187" className="contact-link">
-                +91 7062467187
+                +91 9306630750
               </a>
             </div>
           </li>
@@ -78,7 +78,7 @@ const Sidebar = () => {
             <div className="contact-info">
               <p className="contact-title">Birthday</p>
 
-              <time dateTime="1982-06-23">October 06, 2001</time>
+              <time dateTime="1982-06-23">January 21, 2002</time>
             </div>
           </li>
 
@@ -101,7 +101,7 @@ const Sidebar = () => {
           <li className="social-item-side">
             <a
               target="-blank"
-              href="https://www.linkedin.com/in/uttam-singhal-489130244/"
+              href="https://www.linkedin.com/in/ajay-rajput-200776224/"
               className="social-link-side"
             >
               <FaLinkedinIn />
@@ -112,7 +112,7 @@ const Sidebar = () => {
           <li className="social-item-side">
             <a
               target="-blank"
-              href="https://github.com/Uttamg61001"
+              href="https://github.com/rajputajay1"
               className="social-link-side"
             >
               <BsGithub />
@@ -123,7 +123,7 @@ const Sidebar = () => {
           <li className="social-item-side">
             <a
               target="-blank"
-              href="https://www.instagram.com/uttamg61001/"
+              href="https://www.instagram.com/attitude_boy.1238/"
               className="social-link-side"
             >
               <FaInstagram />
@@ -134,7 +134,7 @@ const Sidebar = () => {
           <li className="social-item-side">
             <a
               target="-blank"
-              href="https://wa.me/+917062467187"
+              href="https://wa.me/+919306630750"
               className="social-link-side"
             >
               <FaWhatsapp />

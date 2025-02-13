@@ -12,8 +12,9 @@ const About = () => {
       iconSrc: "/assets/images/icon-design.svg",
       iconAlt: "design icon",
       title: "Web design",
-      text: "Skilled in wireframing, prototyping, and responsive design, delivering functional and visually appealing interfaces.",
+      text: "Skilled in prototyping, and responsive design, delivering functional and visually appealing interfaces.",
     },
+    // Expert in prototyping and responsive UI design.
     {
       iconSrc: "/assets/images/icon-dev.svg",
       iconAlt: "Web development icon",
@@ -29,8 +30,8 @@ const About = () => {
     {
       iconSrc: "/assets/images/icon-design.svg",
       iconAlt: "design icon",
-      title: "Graphic Designer",
-      text: "The most modern and high-quality design made at a professional level.",
+      title: " Data Visualization",
+      text: "  Designing real-time, AI-powered dashboards Using Mantine.",
     },
   ];
 
@@ -43,16 +44,17 @@ const About = () => {
         </header>
 
         <section className="about-text">
-          <p>
+          {/* <p>
             Experienced UI/UX Designer specializing in creating intuitive,
             user-centered designs for web and mobile platforms.
-          </p>
+          </p> */}
 
           <p>
-            Skilled in wireframing, prototyping, and responsive design,
-            delivering functional and visually appealing interfaces. Adept at
-            aligning user needs with business goals to enhance digital
-            experiences.
+            I am a Full Stack Developer experienced in building scalable web
+            applications with MongoDB, Express.js, React.js, and Node.js. I have
+            a solid understanding of Front-end and Back-end development, RESTful
+            APIs, and Database Management. I’m known for my problem-solving
+            skills, attention to detail, and collaborative approach.
           </p>
         </section>
 
@@ -100,7 +102,6 @@ const About = () => {
             ))}
           </ul>
         </section>
-
       </article>
     </>
   );
