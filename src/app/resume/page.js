@@ -122,7 +122,7 @@ const Page = () => {
               <span>December 2023 — May 2024</span>
 
               <p className="timeline-text">
-                1. Developed and maintained Unity Books’ web platform using
+                1. Developed and maintained Unity Books web platform using
                 React.js, Node.js, and MySQL, ensuring a scalable & efficient
                 architecture.
                 <br />
