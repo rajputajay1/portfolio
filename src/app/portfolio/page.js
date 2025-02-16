@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import Navbar from "@/components/navbar";
 import projectsData from "@/data/project";
 import React, { useEffect } from "react";
@@ -90,11 +91,12 @@ const Page = () => {
                         <FaRegEye />
                       </div>
 
-                      <img
+                    
+                      <Image
                         src={item.imgSrc}
                         alt={item.imgAlt}
                         loading="lazy"
-                        height={400}
+                        height={200}
                       />
                     </figure>
                     <h3 className="project-title">{item.title}</h3>

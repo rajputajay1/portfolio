@@ -4,6 +4,7 @@ import { FaGraduationCap } from "react-icons/fa";
 import { FaCode } from "react-icons/fa6";
 import { cn } from "@/lib/utils";
 import { MovingBorder } from "@/components/ui/moving-border";
+import Image from "next/image";
 
 const Page = () => {
   const skills = [
@@ -245,7 +246,7 @@ const Page = () => {
                   style={{ borderRadius: "10px" }}
                 >
                   <div className="service-icon-box">
-                    <img
+                    <Image
                       src={service.iconSrc}
                       alt={service.iconAlt}
                       width="40"

@@ -7,13 +7,14 @@ import { FaWhatsapp } from "react-icons/fa";
 import { FaLinkedinIn, FaInstagram } from "react-icons/fa6";
 import { BsGithub } from "react-icons/bs";
 import { FaChevronDown, FaRegEye } from "react-icons/fa";
+import Image from "next/image";
 const Sidebar = () => {
   const [isToggle, setIsToggle] = useState(false);
   return (
     <aside className={`sidebar ${isToggle && "active"}`} data-sidebar>
       <div className="sidebar-info">
         <figure className="avatar-box">
-          <img
+          <Image
             src="./assets/images/my-avatar.png"
             alt="Uttam Singhal"
             width="80"
@@ -105,7 +106,7 @@ const Sidebar = () => {
               className="social-link-side"
             >
               <FaLinkedinIn />
-              <img src="/media/linked.png" alt="" />
+              <Image src="/media/linked.png" alt="" />
             </a>
           </li>
 
@@ -116,7 +117,7 @@ const Sidebar = () => {
               className="social-link-side"
             >
               <BsGithub />
-              <img src="/media/github.png" alt="" />
+              <Image src="/media/github.png" alt="" />
             </a>
           </li>
 
@@ -127,7 +128,7 @@ const Sidebar = () => {
               className="social-link-side"
             >
               <FaInstagram />
-              <img src="/media/instagram.png" alt="" />
+              <Image src="/media/instagram.png" alt="" />
             </a>
           </li>
 
@@ -138,7 +139,7 @@ const Sidebar = () => {
               className="social-link-side"
             >
               <FaWhatsapp />
-              <img src="/media/Whatsapp.png" alt="" />
+              <Image src="/media/Whatsapp.png" alt="" />
             </a>
           </li>
         </ul>

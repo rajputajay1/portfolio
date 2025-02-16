@@ -3,6 +3,7 @@ import Navbar from "@/components/navbar";
 import React, { useState } from "react";
 import { MovingBorder } from "@/components/ui/moving-border";
 import { cn } from "@/lib/utils";
+import Image from "next/image";
 
 const About = () => {
   const [isMedia, setIsMedia] = useState(true);
@@ -87,7 +88,7 @@ const About = () => {
                   style={{ borderRadius: "10px" }}
                 >
                   <div className="service-icon-box">
-                    <img
+                    <Image
                       src={service.iconSrc}
                       alt={service.iconAlt}
                       width="40"

@@ -20,7 +20,7 @@ const projectsData = [
   {
     title: "Urban Malta ",
     category: "applications",
-    imgSrc: "/assets/images/project-4.png",
+    imgSrc: "/assets/images/project11.jpg",
     imgAlt: "brawlhalla",
   },
   {
