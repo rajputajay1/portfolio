@@ -44,7 +44,7 @@ const Page = () => {
       skills: ["REST APIs", "AWS", "Firebase", "Docker"],
     },
     {
-      iconSrc: "/assets/images/icon-dev.svg",
+      iconSrc: "/assets/s/icon-dev.svg",
       iconAlt: "tools icon",
       title: "Other Tools",
       text: "Proficient in development tools and workflow automation.",
@@ -249,7 +249,8 @@ const Page = () => {
                     <Image
                       src={service.iconSrc}
                       alt={service.iconAlt}
-                      width="40"
+                      width={40}
+                      height={40}
                     />
                   </div>
                   <div className="service-content-box">

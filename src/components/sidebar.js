@@ -14,11 +14,7 @@ const Sidebar = () => {
     <aside className={`sidebar ${isToggle && "active"}`} data-sidebar>
       <div className="sidebar-info">
         <figure className="avatar-box">
-          <Image
-            src="./assets/images/my-avatar.png"
-            alt="Uttam Singhal"
-            width="80"
-          />
+          <Image src="/my-avatar.png" alt="" width={80} height={80} />
         </figure>
 
         <div className="info-content tracking-wide">
@@ -106,7 +102,7 @@ const Sidebar = () => {
               className="social-link-side"
             >
               <FaLinkedinIn />
-              <Image src="/media/linked.png" alt="" />
+              <Image src="/media/linked.png" alt="" height={40}      width={40}/>
             </a>
           </li>
 
@@ -117,7 +113,7 @@ const Sidebar = () => {
               className="social-link-side"
             >
               <BsGithub />
-              <Image src="/media/github.png" alt="" />
+              <Image src="/media/github.png" alt="" height={40}     width={40} />
             </a>
           </li>
 
@@ -128,7 +124,7 @@ const Sidebar = () => {
               className="social-link-side"
             >
               <FaInstagram />
-              <Image src="/media/instagram.png" alt="" />
+              <Image src="/media/instagram.png" alt="" height={40}      width={40}/>
             </a>
           </li>
 
@@ -139,7 +135,8 @@ const Sidebar = () => {
               className="social-link-side"
             >
               <FaWhatsapp />
-              <Image src="/media/Whatsapp.png" alt="" />
+              <Image src="/media/Whatsapp.png" alt="" height={40}                         width={40}
+ />
             </a>
           </li>
         </ul>

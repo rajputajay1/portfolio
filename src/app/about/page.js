@@ -91,7 +91,8 @@ const About = () => {
                     <Image
                       src={service.iconSrc}
                       alt={service.iconAlt}
-                      width="40"
+                      width={40}
+                      height={40}
                     />
                   </div>
                   <div className="service-content-box">

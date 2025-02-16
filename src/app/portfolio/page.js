@@ -91,12 +91,12 @@ const Page = () => {
                         <FaRegEye />
                       </div>
 
-                    
                       <Image
                         src={item.imgSrc}
                         alt={item.imgAlt}
                         loading="lazy"
                         height={200}
+                        width={200}
                       />
                     </figure>
                     <h3 className="project-title">{item.title}</h3>
