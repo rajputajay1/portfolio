@@ -104,7 +104,7 @@ const Page = () => {
 
               <li className="timeline-text">
                 1. Led the front-end development of Marketing Amplify, the
-                company's flagship product, using React.js
+                company s flagship product, using React.js
               </li>
               <li className="timeline-text">
                 2. Designed and implemented modular & reusable components,
